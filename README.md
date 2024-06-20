@@ -1,8 +1,19 @@
 # DynamicCrowdRouting
-|                                 |                                 |                                 |
-|---------------------------------|---------------------------------|---------------------------------|
-| ![Real](Videos/Real.gif) <br> Description of Real | ![OneAgent_Rays](Videos/OneAgent_Rays.gif) <br> Description of OneAgent_Rays | ![MovingObs1](Videos/MovingObs(1).gif) <br> Description of MovingObs1 |
-| ![MiddleBlock](Videos/MiddleBlock.gif) <br> Description of MiddleBlock | ![lane](Videos/lane.gif) <br> Description of Lane |                      |
+
+
+
+
+<table>
+  <tr>
+    <td><img src="Videos/Real.gif" alt="Description of GIF 1" /><br>Description of GIF 1</td>
+    <td><img src="Videos/OneAgent_Rays.gif" alt="Description of GIF 2" /><br>Description of GIF 2</td>
+    <td><img src="MovingObs(1).gif" alt="Description of GIF 3" /><br>Description of GIF 3</td>
+  </tr>
+  <tr>
+    <td><img src="Videos/MiddleBlock.gif" alt="Description of GIF 4" /><br>Description of GIF 4</td>
+    <td colspan="2"><img src="Videos/lane.gif" alt="Description of GIF 5" /><br>Description of GIF 5</td>
+  </tr>
+</table>
 
 <table>
   <tr>
