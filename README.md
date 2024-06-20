@@ -13,7 +13,7 @@
     <td colspan="2"><img src="Videos/lane.gif" alt="Description of GIF 5" /><br>Description of GIF 5</td>
   </tr>
   <tr>
-     <td><img src="MovingObs(1).gif" alt="Description of GIF 3" /><br>Description of GIF 3</td>
+     <td><img src="Videos/MovingObs(1).gif" alt="Description of GIF 3" /><br>Description of GIF 3</td>
   </tr>
   
 </table>
