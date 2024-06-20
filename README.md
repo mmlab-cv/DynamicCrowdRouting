@@ -2,7 +2,7 @@
 |                                 |                                 |                                 |
 |---------------------------------|---------------------------------|---------------------------------|
 | ![Real](Videos/Real.gif) <br> Description of Real | ![OneAgent_Rays](Videos/OneAgent_Rays.gif) <br> Description of OneAgent_Rays | ![MovingObs1](Videos/MovingObs(1).gif) <br> Description of MovingObs1 |
-| ![MiddleBlock](Videos/MiddleBlock.gif) <br> Description of MiddleBlock | ![lane](Videos/lane.gif) <br> Description of Lane |
+| ![MiddleBlock](Videos/MiddleBlock.gif) <br> Description of MiddleBlock | ![lane](Videos/lane.gif) <br> Description of Lane |                      |
 
 <table>
   <tr>
