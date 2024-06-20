@@ -1,12 +1,12 @@
 # DynamicCrowdRouting
 <table>
   <tr>
-    <td><img src="Videos/Real.gif" alt="Description of GIF 1" /><br>Description of GIF 1</td>
-    <td><img src="Videos/OneAgent_Rays.gif" alt="Description of GIF 2" /><br>Description of GIF 2</td>
+    <td><img src="Videos/MovingObs(2).gif" alt="Description of GIF 1" /><br>Description of GIF 1</td>
+    <td><img src="Videos/MovingGoal(1).gif" alt="Description of GIF 2" /><br>Description of GIF 2</td>
   </tr>
   <tr>
     <td><img src="Videos/MiddleBlock.gif" alt="Description of GIF 4" /><br>Description of GIF 4</td>
-    <td colspan="2"><img src="Videos/MovingObs(2).gif" alt="Description of GIF 5" /><br>Description of GIF 5</td>
+    <td colspan="2"><img src="Videos/Real.gif" alt="Description of GIF 5" /><br>Description of GIF 5</td>
   </tr>
   <tr>
      <td colspan="2" style="text-align: center;"><img src="Videos/lane.gif" alt="Description of GIF 3" /><br>Description of GIF 3</td>
