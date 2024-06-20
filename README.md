@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <td><img src="Videos/MiddleBlock.gif" alt="Description of GIF 4" /><br>Description of GIF 4</td>
-    <td colspan="2"><img src="Videos/MovingObs(1).gif" alt="Description of GIF 5" /><br>Description of GIF 5</td>
+    <td colspan="2"><img src="Videos/MovingObs(2).gif" alt="Description of GIF 5" /><br>Description of GIF 5</td>
   </tr>
   <tr>
      <td colspan="2" style="text-align: center;"><img src="Videos/lane.gif" alt="Description of GIF 3" /><br>Description of GIF 3</td>
