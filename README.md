@@ -6,7 +6,7 @@
   </a>
   <br>
   <span>Video 1: Dynamic Goal Movement</span>
- 
+  <br><br>
 
   <!-- Second image and its description -->
   <a href="https://drive.google.com/file/d/1qmMiXIci0RVm7msLzIWMI6Qjqhg3B18o/view">
