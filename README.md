@@ -2,8 +2,8 @@
 |                                 |                                 |                                 |
 |---------------------------------|---------------------------------|---------------------------------|
 | ![Real](Videos/Real.gif) <br> Description of Real | ![OneAgent_Rays](Videos/OneAgent_Rays.gif) <br> Description of OneAgent_Rays | ![MovingObs1](Videos/MovingObs1.gif) <br> Description of MovingObs1 |
-| ![MovingObs (2)](Videos/MovingObs%20(2).gif) <br> Description of MovingObs 2 | ![MovingGoal (3)](Videos/MovingGoal%20(3).gif) <br> Description of MovingGoal 3 | ![MovingGoal (2)](Videos/MovingGoal%20(2).gif) <br> Description of MovingGoal 2 |
-| ![MovingGoal (1)](Videos/MovingGoal%20(1).gif) <br> Description of MovingGoal 1 | ![MiddleBlock](Videos/MiddleBlock.gif) <br> Description of MiddleBlock | ![lane](Videos/lane.gif) <br> Description of Lane |
+| ![MovingObs (2)](Videos/MovingObs_(2).gif) <br> Description of MovingObs 2 | ![MovingGoal (3)](Videos/MovingGoal_(3).gif) <br> Description of MovingGoal 3 | ![MovingGoal (2)](Videos/MovingGoal_(2).gif) <br> Description of MovingGoal 2 |
+| ![MovingGoal (1)](Videos/MovingGoal_(1).gif) <br> Description of MovingGoal 1 | ![MiddleBlock](Videos/MiddleBlock.gif) <br> Description of MiddleBlock | ![lane](Videos/lane.gif) <br> Description of Lane |
 
 <table>
   <tr>
