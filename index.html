@@ -176,25 +176,25 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
+        <div class="item goal-1">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/MovingGoal_1.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-chair-tp">
+        <div class="item item-goal-2">
           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/MovingGoal_2.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-shiba">
+        <div class="item item-goal-3">
           <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/MovingGoal_3.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-fullbody">
+        <div class="item item-obs-2">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/MovingObs (2).mp4"
                     type="video/mp4">
@@ -234,44 +234,36 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- Static avoidance. -->
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Static avoidance</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/MiddleBlock.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ Static avoidance. -->
 
-      <!-- Visual Effects. -->
+      <!-- Dynamic avoidance. -->
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Dynamic avoidance</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/MovingObs (1).mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ Dynamic avoidance. -->
     </div>
 
     
 
     <div class="columns is-centered">
 
-      <!-- Matting. -->
+      <!-- Dynamic goal. -->
       <div class="column">
         <h2 class="title is-3">Dynamic goal</h2>
         <div class="columns is-centered">
@@ -284,19 +276,20 @@
                       type="video/mp4">
             </video>
           </div>
-
         </div>
       </div>
+      <!--/ Dynamic goal. -->
       
+      <!-- Real-world data. -->
       <div class="column">
-        <h2 class="title is-3">Dynamic goal</h2>
+        <h2 class="title is-3">Real-world data</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              No goal information is given at any time to any of the agents, promoting the exploration of the environment.
+              DCR allows to easily train on on real-world scenes and compare the trajectories with ground truth data.
             </p>
             <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/OneAgent_Rays.mp4"
+              <source src="./static/videos/Real.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -304,6 +297,7 @@
         </div>
       </div>
     </div>
+    <!--/ Real-world data. -->
 
 
     <!-- Lane formation. -->
@@ -322,35 +316,48 @@
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+    <!--/ Lane formation. -->
 
 
-    <!-- Concurrent Work. -->
+    <!-- Sensing. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Ray Sensing</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Agent sensing the environment with ray observations.
+          </p>
+          <video id="matting-video" controls playsinline height="100%">
+            <source src="./static/videos/OneAgent_Rays.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <!--/ Sensing. -->
+
+
+    <!-- Related Links. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
         <div class="content has-text-justified">
           <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
+            Here you can find some related links.
           </p>
           <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+            <a href="https://dev.epicgames.com/community/learning/courses/kRm/unreal-engine-learning-agents-5-4/4JPj/unreal-engine-learning-agents-intro-5-4">Unreal Engine's Learning Agents</a> allows us to setup the training environment and render all the scenes.
           </p>
           <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+            We use <a href="https://www.jupedsim.org/stable/">JuPedSim</a> and <a href="https://pedpy.readthedocs.io/en/stable/">PedPy</a>
+            to simulate our scenes with other deterministic models (SFM, CFSM) and obtain some useful metrics for comparison.
           </p>
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+    <!--/ Related Links. -->
 
   </div>
 </section>
@@ -359,12 +366,8 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
+    <pre><code>Coming soon
+</code></pre>
   </div>
 </section>
 
